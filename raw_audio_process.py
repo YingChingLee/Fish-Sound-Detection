@@ -4,10 +4,10 @@ import librosa
 import numpy as np
 from scipy.signal import butter, lfilter
 import os
-#make path be the route of where the audio and txt files are
+#path of the location of where the audio and txt files are
 path = '/Data/FishSound/Green Island/all'
 path2 = '/Data/FishSound/Green Island/all/'
-#csvname is the result of sampling
+#path and names of results of sampling
 csvname1 = '/Data/FishSound/Green Island/frame_lyu.csv'
 csvname2 = '/Data/FishSound/Green Island/label_lyu.csv'
 miaonum = 21
