@@ -19,4 +19,4 @@
 
 ## Change Data Split
 1. Open up load.py file in the folder of corresponding system (1D_CNN or 1D_LSTM).
-2. Change 
+2. Change the parameters in function prepro, current parameters:test_size=0.2, random_state=42
