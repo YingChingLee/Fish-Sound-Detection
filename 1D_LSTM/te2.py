@@ -1,8 +1,8 @@
-from load1 import HARData
-from load1 import prepro
+from load import HARData
+from load import prepro
 import torch.nn as nn
 from nn_lstm import CNN1D
-from tra1 import create_data_loader
+from train import create_data_loader
 import numpy as np
 from sklearn.model_selection import train_test_split
 import pandas as pd
@@ -10,7 +10,7 @@ import torch
 import librosa.feature
 from torch.utils.data import DataLoader, Dataset
 from sklearn.metrics import confusion_matrix
-from torch.utils.data import DataLoader, Dataset
+
 AUDIO_0 = 'oneslyunew0.csv'
 AUDIO_1 = 'oneslyunew1.csv'
 checkpoint_path = '1dm.pth'
