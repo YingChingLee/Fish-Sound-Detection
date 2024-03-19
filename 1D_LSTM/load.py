@@ -44,8 +44,8 @@ class HARData(Dataset):
 
 
 if __name__ == "__main__":
-    AUDIO_0 = 'oneslyunew0.csv'
-    AUDIO_1 = 'oneslyunew1.csv'
+    AUDIO_0 = 'lyu_0.csv'
+    AUDIO_1 = 'lyu_1.csv'
     X_train,y_train,X_test,y_test = prepro(AUDIO_0,AUDIO_1)
     train_data = HARData(X_train, y_train)
     test_data = HARData(X_test, y_test)
