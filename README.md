@@ -1,1 +1,1 @@
-# Fish-sound-detection-1dCNN
+# Fish-sound-detection
