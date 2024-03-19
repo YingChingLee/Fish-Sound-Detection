@@ -10,8 +10,8 @@ import librosa.feature
 from torch.utils.data import DataLoader, Dataset
 from sklearn.metrics import confusion_matrix
 
-AUDIO_0 = 'oneslyunew0.csv'
-AUDIO_1 = 'oneslyunew1.csv'
+AUDIO_0 = 'lyu_0.csv'
+AUDIO_1 = 'lyu_1.csv'
 
 BATCH_SIZE = 5
 EPOCH = 50
