@@ -3,16 +3,16 @@ import pandas as pd
 import random
 
 # data:file path of the label data
-data = '/Data/FishSound/Keelung Chaojing/label_chao.csv'
+data = '/Data/FishSound/Green Island/label_lyu.csv'
 # p:file path of the label data
 # k:file path of the frame data
-p = '/Data/FishSound/Keelung Chaojing/label_chao.csv'
-k = '/Data/FishSound/Keelung Chaojing/frame_chao.csv'
+p = '/Data/FishSound/Green Island/label_lyu.csv'
+k = '/Data/FishSound/Green Island/frame_lyu.csv'
 #set the name of contents csv of dataset
-csv_filename = 'ones_chao.csv' 
+csv_filename = 'ones_lyu.csv' 
 #set output file's names
-csv_filename0 = 'chao_0.csv' #frames without fish sound
-csv_filename1 = 'chao_1.csv' #frames with fish sound
+csv_filename0 = 'lyu_0.csv' #frames without fish sound
+csv_filename1 = 'lyu_1.csv' #frames with fish sound
 
 def create_continuous_ones_dataframe(input_dataframe, column_name):
     ones_series = []
