@@ -1,5 +1,5 @@
-from load1 import HARData
-from load1 import prepro
+from load import HARData
+from load import prepro
 import torch.nn as nn
 from nn_lstm import CNN1D
 import numpy as np
@@ -9,8 +9,6 @@ import torch
 import librosa.feature
 from torch.utils.data import DataLoader, Dataset
 from sklearn.metrics import confusion_matrix
-from torch.utils.data import DataLoader, Dataset
-
 
 AUDIO_0 = 'oneslyunew0.csv'
 AUDIO_1 = 'oneslyunew1.csv'
