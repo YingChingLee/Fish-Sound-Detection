@@ -2,3 +2,4 @@ torch==2.0.1 + cu117
 librosa==0.10.0
 sklearn
 pandas
+scipy.signal
